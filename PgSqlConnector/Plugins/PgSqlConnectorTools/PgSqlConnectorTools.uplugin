@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"EngineVersion": "5.7",
+	"FriendlyName": "PgSqlConnectorTools",
+	"Description": "PostgreSQL connector plugin for Unreal Engine 5 with persistent TCP connections, connection pooling, async execution, multi-threading, transaction batching, Blueprint nodes and C++ APIs.",
+	"Category": "Database",
+	"CreatedBy": "HaoJunDeveloper",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"FabURL": "com.epicgames.launcher://ue/Fab/product/01a043a2-5061-44c6-ab5f-970eac895bed",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PgSqlConnectorTools",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}
